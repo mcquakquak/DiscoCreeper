@@ -18,7 +18,7 @@ pygame.init()
 #--Resolution--#
 DISPLAYSURF = pygame.display.set_mode((500, 500))
 #--Tab_Name--#
-pygame.display.set_caption('Hello Dave')
+pygame.display.set_caption('Creeper Face Disco')
 #--Frames_Per_Second--#
 clock = pygame.time.Clock()
 #--Color Palettes--#
