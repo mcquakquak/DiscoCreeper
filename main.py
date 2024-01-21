@@ -29,6 +29,7 @@ bluePalet = [(0, 0, 255), (153, 204, 255), (0, 255, 255), (0, 51, 204),
 redPalet = [(255, 80, 80), (204, 0, 0), (255, 0, 0), (204, 51, 0),
             (255, 92, 51)]
 #--User Inputs--#
+tickSpeed = input("What tick speed do you want (60 is the normal one.)")
 sqreORcircle = input("Do you want rectangle or circle? (R/C) ")
 if sqreORcircle == "R":
     widthSq = int(input("What size rectangle you want? (WIDTH) "))
@@ -77,4 +78,4 @@ while True:
     left_nose = pygame.draw.rect(DISPLAYSURF, (0, 0, 0), [315, 275, 75, 200])
 
     pygame.display.update()
-    # clock.tick(60)
+    clock.tick(int(tickSpeed))
